@@ -113,3 +113,39 @@
 // Console.WriteLine("Нажмите Enter для выхода...");
 // Console.ReadLine();
 
+string favoriteMedia = "Интерстеллар";
+
+int favoriteNumber = 3;
+
+double pi = Math.PI; 
+
+char favoriteLetter = 'D';
+
+Console.WriteLine($"Любимый фильм: {favoriteMedia}");
+Console.WriteLine($"Любимая цифра: {favoriteNumber}");
+Console.WriteLine($"Число пи: {pi}");
+Console.WriteLine($"Любимая буква: {favoriteLetter}");
+
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+Console.WriteLine("Hello There");
+
+int monitor = 13400;
+int blok = 750000;
+int klava = 5000;
+int maus = 3450;
+Console.Write($"Стоимость покупки трёх компьютеров: {(monitor + blok + klava + maus) * 3} рублей.");
+
+Console.WriteLine(" ");
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.Write(3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41);
+
+Console.WriteLine(" ");
+
+int C = int.Parse(Console.ReadLine());
+Console.Write($"Температура в Фаренгейтах: {C * 9.0 / 5.0 + 32}.");
